@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif !important;
+    font-size: 12px !important;
+}
+.main-container  {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 73%;
+    width:65% ;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    right: 50px;
+    overflow: hidden;
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-position-x: -530px;
+    background-position-y: -265px;
+    background-size: cover;
+    font-weight: 400 !important;
+   
+}
+
+.img-div {
+    position: absolute;
+    left:-68px;
+    bottom: 85px;
+}
+
+.img {
+    width: 85%;
+    
+}
+
+.box {
+    width: 12%;
+    position: relative;
+    right:-35px;
+    bottom: -33px;
+    z-index:1;
+    
+}
+.accordion--div {
+    position: absolute;
+    right: 12%;
+    bottom: 13%;
+    
+    
+}
+.accordion{
+    max-width: 100%;
+    }
+
+.accordion-button {
+    /* border-bottom: 2px hsl(240, 5%, 91%) !important; */
+    border-left: none !important;
+    border-right: none !important;
+    color:#333;
+
+}
+
+.accordion-collapse {
+    border: white !important; 
+}
+
+.accordion-button:not(.collapsed) {
+    color: #333 !important;
+    font-weight: 700 !important;
+    background-color: white !important;
+}
+
+.one {
+    border-top: none !important;
+}
+
+.faq {
+    font-weight: 700;
+    padding-left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    }
+
+    .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 13%;
+    left:0.1% ;
+    overflow: visible;
+    border-radius: 30px;
+    width: 90%;
+    height:72%;
+    background-image: url('./images/bg-pattern-mobile.svg');
+    background-repeat: no-repeat;
+    background-position-x:-530px;
+    background-position-y:-480px ;
+    background-size: cover;
+    
+    }
+
+    .img-div {
+        position: absolute;
+        top: -20%;
+        left: 14%;
+    }
+    
+    .img {
+        width: 80%;
+    }
+
+    .accordion--div {
+       width: 92%;
+       position: absolute;
+       left: 4%;
+       bottom: 9%;
+        
+    
+    }
+    
+
+    .box {
+        width: 19%;
+        position: absolute;
+        top: 13%;
+        left:19%;
+    }
+
+    .faq {
+        text-align: center;
+        padding-right:20px ;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
